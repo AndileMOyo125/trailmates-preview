@@ -18,18 +18,14 @@ const App: React.FC = () => {
 
       {/* Hero Section with Cinematic Zoom */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
-        {/* Cinematic Background Video */}
+        {/* Cinematic Background Image */}
         <div className="absolute inset-0 z-0 overflow-hidden">
-          <video
-            autoPlay
-            loop
-            muted
+          <img
+            src="src/assets/hhiking.jpg"
+            alt="A person standing on a mountain peak looking out at a valley below."
             className="w-full h-full object-cover"
             style={{ animation: 'hero-zoom 10s infinite linear' }}
-          >
-            {/* STEP 1: Paste your video URL in the src attribute below */}
-            <source src="hiking-video.mp4" type="video/mp4" />
-          </video>
+          />
         </div>
         {/* Overlay */}
         <div className="absolute inset-0 z-0 bg-black opacity-40"></div>
