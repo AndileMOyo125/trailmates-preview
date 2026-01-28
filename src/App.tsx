@@ -21,7 +21,7 @@ const App: React.FC = () => {
         {/* Cinematic Background Image */}
         <div className="absolute inset-0 z-0 overflow-hidden">
           <img
-            src="src/assets/hhiking.jpg"
+            src="/hhiking.jpg"
             alt="A person standing on a mountain peak looking out at a valley below."
             className="w-full h-full object-cover"
             style={{ animation: 'hero-zoom 10s infinite linear' }}
